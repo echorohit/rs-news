@@ -644,3 +644,25 @@
   
 }
 
+/* This component has a fixed-size layout */
+  .InputComponent {
+    min-height: 114px;
+    overflow: hidden;
+    min-width: 182px;
+     /* This component has a fixed size */
+  }
+  .InputComponent > .background > .containerMinHeight {
+    min-height: 114px;
+  }
+
+
+  .InputComponent .elBackground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
