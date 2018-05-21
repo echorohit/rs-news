@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import LocalizedStrings from 'react-localization';
 import './App.css';
-import StartScreen from './StartScreen.js';
+import NewsScreen from './NewsScreen.js';
+import OnboardingScreen from './OnboardingScreen.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 
 
@@ -14,11 +15,13 @@ export default class App extends Component {
 
     this.dataSlots = {};
     this.dataSlots['ds_activeLang'] = "en";
+    this.dataSlots['ds_userEmail'] = "";
+    this.dataSlots['ds_userFullName'] = "";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 
     this.state = {
-      currentScreen: 'start',
+      currentScreen: 'onboarding',
       currentScreenProps: {},
       screenFormatId: '',
       screenTransitionForward: true,
@@ -169,12 +172,16 @@ export default class App extends Component {
           screenFormatId: this.state.screenFormatId
         },
         ds_activeLang: this.dataSlots['ds_activeLang'],
+        ds_userEmail: this.dataSlots['ds_userEmail'],
+        ds_userFullName: this.dataSlots['ds_userFullName'],
       };
       switch (screenId) {
         default:
           return null;
-        case 'start':
-          return (<StartScreen {...screenProps} />)
+        case 'news':
+          return (<NewsScreen {...screenProps} />)
+        case 'onboarding':
+          return (<OnboardingScreen {...screenProps} />)
       }
     }
 

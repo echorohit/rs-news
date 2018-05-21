@@ -255,7 +255,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .StartScreen > .background > .elBackground {
+  .NewsScreen > .background > .elBackground {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -264,7 +264,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .StartScreen > .background > .elBackground {
+  .NewsScreen > .background > .elBackground {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -273,7 +273,7 @@
   }
 }
 @media (min-width: 768px) {
-  .StartScreen > .background > .elBackground {
+  .NewsScreen > .background > .elBackground {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -282,12 +282,365 @@
   }
 }
 @media (min-width: 1024px) {
-  .StartScreen > .background > .elBackground {
+  .NewsScreen > .background > .elBackground {
     left: 0px;
     right: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
   }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .NewsScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    margin-top: 94px;
+    width: 238px;
+    margin-left: 46px;
+  }
+  .NewsScreen > .layoutFlow > .elText > * { 
+  width: 238px;
+  height: 26px;
+  }
+  
+@media (min-width: 568px) {
+  .NewsScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    margin-top: 94px;
+    width: 238px;
+    margin-left: 46px;
+  }
+  .NewsScreen > .layoutFlow > .elText > * { 
+  width: 238px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .NewsScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    margin-top: 94px;
+    width: 236px;
+    margin-left: 46px;
+  }
+  .NewsScreen > .layoutFlow > .elText > * { 
+  width: 236px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .NewsScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    margin-top: 94px;
+    width: 236px;
+    margin-left: 46px;
+  }
+  .NewsScreen > .layoutFlow > .elText > * { 
+  width: 236px;
+  height: 26px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .NewsScreen > .layoutFlow > .elText2 {
+    overflow: hidden;
+    margin-top: 132px;
+    width: 238px;
+    margin-left: 59px;
+  }
+  .NewsScreen > .layoutFlow > .elText2 > * { 
+  width: 238px;
+  height: 26px;
+  }
+  
+@media (min-width: 568px) {
+  .NewsScreen > .layoutFlow > .elText2 {
+    overflow: hidden;
+    margin-top: 132px;
+    width: 238px;
+    margin-left: 59px;
+  }
+  .NewsScreen > .layoutFlow > .elText2 > * { 
+  width: 238px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .NewsScreen > .layoutFlow > .elText2 {
+    overflow: hidden;
+    margin-top: 132px;
+    width: 236px;
+    margin-left: 58px;
+  }
+  .NewsScreen > .layoutFlow > .elText2 > * { 
+  width: 236px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .NewsScreen > .layoutFlow > .elText2 {
+    overflow: hidden;
+    margin-top: 131px;
+    width: 236px;
+    margin-left: 58px;
+  }
+  .NewsScreen > .layoutFlow > .elText2 > * { 
+  width: 236px;
+  height: 26px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .background > .elBackground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .layoutFlow > .elImage {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .OnboardingScreen > .layoutFlow > .elImage > * { 
+    width: 100%;
+  height: 77px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .elImage {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .OnboardingScreen > .layoutFlow > .elImage > * { 
+    width: 100%;
+  height: 77px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .elImage {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .OnboardingScreen > .layoutFlow > .elImage > * { 
+    width: 100%;
+  height: 76px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .elImage {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .OnboardingScreen > .layoutFlow > .elImage > * { 
+    width: 100%;
+  height: 76px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .layoutFlow > .elFullName {
+    margin-top: 90px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .OnboardingScreen > .layoutFlow > .elFullName > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .elFullName {
+    margin-top: 90px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .OnboardingScreen > .layoutFlow > .elFullName > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .elFullName {
+    margin-top: 90px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .OnboardingScreen > .layoutFlow > .elFullName > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .elFullName {
+    margin-top: 90px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .OnboardingScreen > .layoutFlow > .elFullName > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .layoutFlow > .elEmail {
+    margin-top: 77px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .OnboardingScreen > .layoutFlow > .elEmail > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .elEmail {
+    margin-top: 77px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .OnboardingScreen > .layoutFlow > .elEmail > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .elEmail {
+    margin-top: 77px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .OnboardingScreen > .layoutFlow > .elEmail > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .elEmail {
+    margin-top: 76px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .OnboardingScreen > .layoutFlow > .elEmail > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+
+.OnboardingScreen .elButton button {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .layoutFlow > .elButton {
+    line-height: 35px;
+    margin-top: 68px;
+    width: 145px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .OnboardingScreen > .layoutFlow > .elButton > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .elButton {
+    line-height: 35px;
+    margin-top: 68px;
+    width: 145px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .OnboardingScreen > .layoutFlow > .elButton > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .elButton {
+    line-height: 35px;
+    margin-top: 67px;
+    width: 144px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .OnboardingScreen > .layoutFlow > .elButton > * { 
+  width: 144px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .elButton {
+    line-height: 35px;
+    margin-top: 67px;
+    width: 144px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .OnboardingScreen > .layoutFlow > .elButton > * { 
+  width: 144px;
+  height: 35px;
+  }
+  
 }
 
