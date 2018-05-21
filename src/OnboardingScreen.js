@@ -18,6 +18,7 @@ export default class OnboardingScreen extends Component {
     this.state = {
       fullName: this.props.ds_userFullName,
       email: this.props.ds_userEmail,
+      ci: 0,
     };
   }
 
@@ -40,7 +41,12 @@ export default class OnboardingScreen extends Component {
     
     console.log(localStorage.getItem('email'));
     console.log(localStorage.getItem('fullName'));
+
+    this.setState({
+      ci : ci + 1
+    })
   
+    console.log(this.state.ci);
      
   
     // Go to screen 'News'
